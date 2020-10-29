@@ -21,7 +21,7 @@
 
 /* title texts */
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{
@@ -47,6 +47,8 @@ p{
   width: 60%;
   transform: rotate(25deg);
   margin: auto;
+  position: absolute;
+  left: 15%;
 }
 
 .download-button{
@@ -57,6 +59,8 @@ p{
 
 #features{
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box{
@@ -94,4 +98,48 @@ p{
 
 .carousel-item{
   padding: 7% 15%;
+}
+
+/* pricing cards */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-header{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+.cta-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+/* footer section */
+
+#footer{
+  text-align: center;
+  padding: 100px;
+}
+
+.social-icon{
+  padding: 2%;
 }
